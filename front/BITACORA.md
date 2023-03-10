@@ -4,6 +4,8 @@
 
 ## Instalar y Correr la aplicación 
 
+** considerar rama "master" para hacer la instalación 
+
 Instalar API (backend) y la aplicacion React (front):
 
 
