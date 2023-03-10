@@ -2,25 +2,7 @@
 # Prueba técnica Front-end Ecomsur: Gestión de carrito de compras 
 
 
-## Tabla de contenido
-
-1. [Instalar y correr la aplicación](#Instalar-y-correr-la-aplicación)
-2. [Manejo de estado](#Manejo-de-estado)
-3. [Rutas](#Rutas)
-4. [Estilo](#Estilo)
-5. [Consultas a API](#Consulta-a-API)
-
-
-
-Instalar y correr la aplicación (front):
-
-En la carpeta root de la aplicacion correr: npm install
-Navega al directorio front y vuelve a correr el comando: npm install
-Regresa al directorio root cd ...
-La aplicación está compuesta de un servidor Express y una instalación básica de Create-React-App (CRA). Todo está configurado para correr con un solo comando
-
-
-# Instalar y Correr la aplicación 
+## Instalar y Correr la aplicación 
 
 Instalar API (backend) y la aplicacion React (front):
 
