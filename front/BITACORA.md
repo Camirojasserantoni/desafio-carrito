@@ -6,6 +6,7 @@
 
 Instalar API (backend) y la aplicacion React (front):
 
+
 En la carpeta root de la aplicacion correr: npm install
 Navega al directorio front y vuelve a correr el comando: npm install
 Regresa al directorio root cd ...
@@ -22,12 +23,7 @@ Las únicas dependencias utilizadas extra al proyecto fueron,
 - sweetAlert2 
 
 
-Las que debiesen de  estar ingresadas una vez se instale el proyecto, pero en caso de no agregarse correctamente, favor correr los siguientes comandos desde la terminal de front-end:
-```bash
-npm i axios
-npm i react-router-dom
-npm install sweetalert2
-```
+Las que debiesen de  estar ingresadas una vez se instale el proyecto.
 
 # Descripcion de la solución
 
@@ -56,3 +52,14 @@ Toda el desafío fue desarrollado sólo con manejo de css, sin embargo, con el f
 ## Consultas a API: 
 
 Para la realización de consultas del total de productos se hace con  `Axios`, esto se realiza de manera centralizada en la carpeta `Contex`, particularmente la función es llamada de manera descriptiva `DataContext` elementos que son llamados para su actualizació en potros componentes, como por ejemplo e productItem.js y de este modo, en el mismo archivo se almacenan los datos en el localStorage, de modo que este quede sincronizado cuando se recargue el navegador. 
+
+## Visualización
+
+De forma general, se logra visualizar de la siguiente manera:
+
+![imagen general de la web ](./general.png) 
+
+y por otro lado, podemos apreciar que la tienda se visualiza de este modo: 
+
+![imagen general de la web ](./productos.png) 
+

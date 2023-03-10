@@ -7,7 +7,7 @@
 .navbar{
     display: flex;
     justify-content: space-between;
-    height: 10vh;
+    height: 12vh;
     background-color: #970f6a;
     list-style: none;
     text-decoration: none;
@@ -27,7 +27,8 @@
    text-decoration: none;
     color: #fff;
     cursor: pointer;
-    margin: 2vh
+    margin: 2vh;
+    margin-top: auto;
   };
 
 @media (max-width: 575.98px) {

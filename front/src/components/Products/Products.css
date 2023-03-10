@@ -13,7 +13,7 @@
 
 .card{
   text-align: center;
-  width: 30%;
+  width: 29%;
   padding: 1rem;
   margin: 0.8rem;
   display: inline-flex;
@@ -128,7 +128,7 @@ border: none;
   .card {
     width: 92%;
     flex: 0 0 auto;
-    /* padding: 0 1rem; */
+    padding: 0 1rem;
     margin: 0rem;
     margin-top: 1rem;
   }
@@ -179,5 +179,27 @@ border: none;
       border-radius: 5px;
   
   }
+
+  
+.tooltip {
+  position: relative;
+  display: inline-block;
+border: none;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
 
  }
