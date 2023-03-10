@@ -201,5 +201,13 @@ border: none;
   z-index: 1;
 }
 
+.noStock-item{
+  color: red;
+  font-weight: 500;
+  margin: auto;
+}
 
+.card-title{
+  margin: 5px;
+}
  }
