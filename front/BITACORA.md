@@ -2,7 +2,17 @@
 # Prueba técnica Front-end Ecomsur: Gestión de carrito de compras 
 
 
-Instalar API (backend) y la aplicacion React (front):
+## Tabla de contenido
+
+1. [Instalar y correr la aplicación](#Instalar-y-correr-la-aplicación)
+2. [Manejo de estado](#Manejo-de-estado)
+3. [Rutas](#Rutas)
+4. [Estilo](#Estilo)
+5. [Llamado a la API](#Llamado-a-la-API)
+
+
+
+Instalar y correr la aplicación (front):
 
 En la carpeta root de la aplicacion correr: npm install
 Navega al directorio front y vuelve a correr el comando: npm install
@@ -55,4 +65,10 @@ Respecto al manejo de las rutas este se realizó a partir de la siguiente base:
 - una ruta inicial o Home ("/")
 - ruta carrito de compras 
 - rutas relativas para el acceso al detalle de cada producto, esto a partir del id (por ejemplo:" http://localhost:5000/api/products/4" ) 
+
+## Estilos: 
+
+Toda el desafío fue desarrollado sólo con manejo de css, sin embargo, con el fin de proporcionar al usuario/a una experiencia más fluida  las notificaciones de ingreso o salida de productos del carrito, se hace con el uso de la librería Sweet Alert. 
+
+
 
