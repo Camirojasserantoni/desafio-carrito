@@ -8,7 +8,7 @@
 2. [Manejo de estado](#Manejo-de-estado)
 3. [Rutas](#Rutas)
 4. [Estilo](#Estilo)
-5. [Llamado a la API](#Llamado-a-la-API)
+5. [Consultas a API](#Consulta-a-API)
 
 
 
@@ -63,7 +63,7 @@ Considerando la complejidad del manejo de estados en el desafío, opté por no h
 Respecto al manejo de las rutas este se realizó a partir de la siguiente base: 
 
 - una ruta inicial o Home ("/")
-- ruta carrito de compras 
+- ruta carrito de compras ("http://localhost:3000/carrito")
 - rutas relativas para el acceso al detalle de cada producto, esto a partir del id (por ejemplo:" http://localhost:5000/api/products/4" ) 
 
 ## Estilos: 
@@ -71,4 +71,6 @@ Respecto al manejo de las rutas este se realizó a partir de la siguiente base:
 Toda el desafío fue desarrollado sólo con manejo de css, sin embargo, con el fin de proporcionar al usuario/a una experiencia más fluida  las notificaciones de ingreso o salida de productos del carrito, se hace con el uso de la librería Sweet Alert. 
 
 
+## Consultas a API: 
 
+Para la realización de consultas del total de productos se hace con  `Axios`, esto se realiza de manera centralizada en la carpeta `Contex`, particularmente la función es llamada de manera descriptiva `DataContext` elementos que son llamados para su actualizació en potros componentes, como por ejemplo e productItem.js y de este modo, en el mismo archivo se almacenan los datos en el localStorage, de modo que este quede sincronizado cuando se recargue el navegador. 
