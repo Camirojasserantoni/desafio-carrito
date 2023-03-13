@@ -22,7 +22,7 @@ const ProductItem = ({
 
   const addToCart = () => {
     setCart((currItems) => {
-      console.log(currItems);
+      // console.log(currItems);
 
       const isItemsFound = currItems.find((item) => item._id === _id);
       if (isItemsFound) {

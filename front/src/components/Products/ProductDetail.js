@@ -15,7 +15,7 @@ const ProductDetail = () => {
     );
   }, []);
 
-  console.log(product, "Product");
+  // console.log(product, "Product");
 
   return (
     <>
@@ -33,17 +33,21 @@ const ProductDetail = () => {
                 src={`http://localhost:5000/${product.image}`}
               />{" "}
               <div>
-              {product.countInStock <= 0 ? <p className="noStock-detail"> Sin stock</p> : ""}
-                {" "} <h3 className="cardt-detail"> Precio: ${product.price}</h3>
-                <h4 className="cardt-detail">  Categoría: {product.category}</h4>
-               
-              </div>
-              <div> 👁️‍🗨️ Reviews: {product.numReviews}</div>
+                {product.countInStock <= 0 ? (
+                  <p className="noStock-detail"> Sin stock</p>
+                ) : (
+                  ""
+                )}{" "}
+                <h3 className="cardt-detail"> Precio: ${product.price}</h3>
+                <h4 className="cardt-detail"> Categoría: {product.category}</h4>
+              </div>{" "}
               <div> ⭐ Rating: {product.rating}</div>
-          
-            </div>{" "}    <div className="description-detail">{product.description} </div><Link  to={"/"}>
-          <button className="back-products" >  Volver atrás </button>
-        </Link>
+              <div> 👁️‍🗨️ Reviews: {product.numReviews}</div>
+            </div>{" "}
+            <div className="description-detail">{product.description} </div>
+            <Link to={"/"}>
+              <button className="back-products"> Volver atrás </button>
+            </Link>
           </div>
         </div>
       </div>

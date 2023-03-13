@@ -1,14 +1,14 @@
-.cardTotal{
+.cardTotal {
     border: solid black 1px;
     margin: 3%;
 }
 
-.back-container{ 
+.back-container {
     margin-left: 1rem;
     width: 25%;
 }
 
-.back-cart{
+.back-cart {
     border: none;
     outline: 0;
     padding: 10px;
@@ -22,12 +22,12 @@
     margin-bottom: 15px;
     margin-top: 15px;
     border-radius: 5px;
-} 
+}
 
 
-@media (max-width: 575.98px) { 
+@media (max-width: 575.98px) {
 
-    .cardTotal{
+    .cardTotal {
         border: solid black 1px;
         margin: 3%;
     }

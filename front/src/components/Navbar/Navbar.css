@@ -1,10 +1,10 @@
-.nav-container{
+.nav-container {
     position: sticky;
     z-index: 3;
     top: 0;
 }
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     height: 12vh;
@@ -14,7 +14,7 @@
 }
 
 
-.seeCarrito{
+.seeCarrito {
     font-size: 20px;
     margin: 4vh;
     cursor: pointer;
@@ -22,24 +22,26 @@
     color: #fff;
 }
 
-.navStyles{
+.navStyles {
     list-style: none;
-   text-decoration: none;
+    text-decoration: none;
     color: #fff;
     cursor: pointer;
     margin: 2vh;
     margin-top: auto;
-  };
+}
+
+;
 
 @media (max-width: 575.98px) {
 
-    .nav-container{
+    .nav-container {
         position: sticky;
         z-index: 3;
         top: 0;
     }
-    
-    .navbar{
+
+    .navbar {
         display: flex;
         justify-content: space-between;
         height: 8vh;
@@ -47,24 +49,25 @@
         list-style: none;
         text-decoration: none;
     }
-    
-    
-    .seeCarrito{
+
+
+    .seeCarrito {
         font-size: 20px;
         margin: 4vh;
         cursor: pointer;
         text-decoration: none;
         color: #fff;
     }
-    
-    .navStyles{
+
+    .navStyles {
         list-style: none;
-       text-decoration: none;
+        text-decoration: none;
         color: #fff;
         cursor: pointer;
         margin: 2vh,
-      };
-    
+    }
 
- }
+    ;
 
+
+}

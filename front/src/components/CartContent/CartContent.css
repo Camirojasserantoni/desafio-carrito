@@ -1,8 +1,8 @@
-
-.resume-cart{
+.resume-cart {
     text-align: center;
 
 }
+
 .cart-message-center {
     text-align: center;
     margin-top: 40px;
@@ -18,7 +18,7 @@
     display: inline-block;
 }
 
-.search-products{
+.search-products {
     border: none;
     outline: 0;
     padding: 10px;
@@ -39,7 +39,7 @@
         margin-top: 40px;
     }
 
-    .search-products{
+    .search-products {
         border: none;
         outline: 0;
         padding: 10px;

@@ -1,10 +1,10 @@
-.banner{
+.banner {
     background-size: cover;
     background-position: center;
     height: 70vh;
 
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-    url('https://images.pexels.com/photos/6214386/pexels-photo-6214386.jpeg?auto=compress&cs=tinysrgb&w=1600');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url('https://images.pexels.com/photos/6214386/pexels-photo-6214386.jpeg?auto=compress&cs=tinysrgb&w=1600');
 }
 
 .banner-container {
@@ -15,7 +15,7 @@
 .banner h1 {
     margin: 0;
     color: white;
-    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
     font-size: 62px;
     font-weight: bold;
 }
@@ -24,41 +24,41 @@
     font-size: 30px;
     color: white;
     opacity: 0.9;
-    text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-@media (max-width: 575.98px) { 
+@media (max-width: 575.98px) {
 
-    .banner{
+    .banner {
         background-size: cover;
         background-position: center;
         height: 40vh;
-    
-        background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-        url('https://images.pexels.com/photos/6214386/pexels-photo-6214386.jpeg?auto=compress&cs=tinysrgb&w=1600');
+
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+            url('https://images.pexels.com/photos/6214386/pexels-photo-6214386.jpeg?auto=compress&cs=tinysrgb&w=1600');
     }
-    
+
     .banner-container {
         text-align: center;
         padding: 10% 5%;
     }
-    
+
     .banner h1 {
         margin: 0;
         color: white;
-        text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
         font-size: 62px;
         font-weight: bold;
     }
-    
+
     .banner p {
         font-size: 20px;
         color: white;
         opacity: 0.9;
-        text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
     }
-    
 
 
 
- }
+
+}
